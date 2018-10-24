@@ -48,7 +48,7 @@ const Layout = ({ children }) => (
         >
           {children}
           <div style={{margin:'60px 10px auto'}}>
-          Updated on: {data.site.buildTimeZone}
+          Updated on: {data.site.buildTimeZone} | <img src="https://travis-ci.org/pradityabagus/pradityabagus.github.io.svg?branch=develop"></img>
           </div>
         </div>
         <div>
