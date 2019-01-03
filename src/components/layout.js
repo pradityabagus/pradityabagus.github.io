@@ -49,7 +49,7 @@ const Layout = ({ children }) => (
           {children}
           <div style={{margin:'60px 10px auto'}}>
            <p>
-            <img src="https://travis-ci.org/pradityabagus/pradityabagus.github.io.svg?branch=develop"></img> 
+            <img src="https://travis-ci.org/pradityabagus/pradityabagus.github.io.svg?branch=develop" alt="travis ci's build status"></img> 
           </p>
           <p>
             Updated on: {data.site.buildTimeZone}

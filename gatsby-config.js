@@ -1,7 +1,7 @@
 module.exports = {
     pathPrefix: "/rendahlemak-website",
   siteMetadata: {
-    title: 'Hi there! I\'m adit',
+    title: 'Adit\'s personal homepage',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -13,20 +13,20 @@ import Img from 'gatsby-image'
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const Image = () => (
+const ProfileImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "easy.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 400) {
+            fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="my profile image" />}
   />
 )
-export default Image
+export default ProfileImage
