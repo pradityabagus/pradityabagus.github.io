@@ -8,9 +8,8 @@ const SecondPage = () => (
   <Layout>
     <h1>Ping me!</h1>
     <p>You can reach me via email to dewantara@live.com</p>
-    <p>I'm aware of <a href="https://medium.freecodecamp.org/how-does-pretty-good-privacy-work-3f5f75ecea97">PGP</a> cryptography technique. You should too. If you want to send something confidential to me, you can encrypt it with <a href={withPrefix('pgp.txt')}>my public key</a></p>
     <p>
-      I'm currently off the social network grid. And (maybe) only will be writing posts on <a href="https://medium.com/@pradityabagus">my medium</a> or on this website. As part of the awesome developer community, I also have a <a href="https://github.com/pradityabagus">Github account</a>. Mainly I star awesome repositories.
+      I'm currently off the social network grid.
     </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
