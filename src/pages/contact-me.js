@@ -7,7 +7,7 @@ import { withPrefix } from 'gatsby'
 const SecondPage = () => (
   <Layout>
     <h1>I am sorry...</h1>
-    <p>I am currently experiencing mental instability. In order to keep my sanity, I am completely off all personal communication channel. Including social media and email. I'll update my new contact info in this page. Thank you.</p>
+    <p>Due to my condition, I am sorry that I close all my personal communication channel. Some people might say it's easy to overcome my issues. Unfortunately for me, it isn't.</p>
 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
